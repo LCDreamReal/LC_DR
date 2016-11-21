@@ -32,7 +32,7 @@ public class Swagger2 {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("Spring Boot中使用Swagger2构建RESTful APIs")
-                .description("更多Spring Boot相关文章请关注：https://github.com/LCDreamReal/LC_DR")
+                .description("github地址：https://github.com/LCDreamReal/LC_DR")
                 .termsOfServiceUrl("https://github.com/LCDreamReal/LC_DR")
                 .contact("LC_DR")
                 .version("1.0")
