@@ -14,14 +14,14 @@ import javax.annotation.Resource;
  */
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class MapperTest {
+public class UsersMapperTest {
 
     @Resource
-    TestMapper testMapper;
+    UsersMapper usersMapper;
 
     @Test
     public void testMapper(){
 
-        System.out.println(testMapper.insertTest("lcdr"));
+        System.out.println(usersMapper.insertTest("lcdr"));
     }
 }

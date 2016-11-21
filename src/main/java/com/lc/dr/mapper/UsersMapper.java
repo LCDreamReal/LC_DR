@@ -10,7 +10,7 @@ import org.apache.ibatis.annotations.Param;
  * Datetime: 2016-11-21 11:35
  */
 @Mapper
-public interface TestMapper {
+public interface UsersMapper {
 
     @Insert("insert into users(description) values(#{desc})")
     int insertTest(@Param("desc") String desc);

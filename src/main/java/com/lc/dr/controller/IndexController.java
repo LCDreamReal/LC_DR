@@ -4,6 +4,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
+import springfox.documentation.annotations.ApiIgnore;
 
 /**
  * Time:   2016/11/3.
@@ -13,6 +14,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 @RequestMapping(value = "")
 public class IndexController {
 
+    @ApiIgnore
     @RequestMapping(value = "index")
     public String index(ModelMap model){
 
