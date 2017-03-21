@@ -22,6 +22,6 @@ public class UsersMapperTest {
     @Test
     public void testMapper(){
 
-        System.out.println(usersMapper.insertTest("lcdr"));
+//        System.out.println(usersMapper.insertTest("lcdr"));
     }
 }
