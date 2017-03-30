@@ -1,5 +1,6 @@
 package com.lc.dr.controller;
 
+import com.lc.dr.annotations.MethodApi;
 import com.lc.dr.mapper.UsersMapper;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -22,6 +23,7 @@ public class Swagger2TestController {
     @ApiOperation(value = "新增用户", notes = "新增用户")
     @ApiImplicitParam(name = "desc", value = "用户描述", required = true, dataType = "String")
     @RequestMapping(value = "insertUser", method = RequestMethod.POST)
+    @MethodApi
     public Boolean insertUser(@RequestBody String desc){
 
         return usersMapper.insertTest(desc)==1;
