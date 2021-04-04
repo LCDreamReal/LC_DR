@@ -17,6 +17,8 @@ public class IndexController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(IndexController.class);
 
+    private String str = "34";
+
     @ApiIgnore
     @RequestMapping(value = "index")
     public String index(ModelMap model){
